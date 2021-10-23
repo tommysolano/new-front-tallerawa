@@ -1,0 +1,825 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body p {
+  font-size: 1.1em;
+}
+
+body header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #EC6608;
+  width: 100%;
+  height: 90px;
+  border-bottom: 1px solid #fff;
+}
+
+body header nav .logo {
+  width: 30%;
+}
+
+body header nav .logo img {
+  width: 100px;
+  height: 80px;
+  margin-left: 50px;
+}
+
+body header nav .company_name {
+  width: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 10px;
+}
+
+body header nav .company_name h3 {
+  color: #fff;
+  font-size: 2em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body header nav .company_name .container_car {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body header nav .phone {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 50px;
+}
+
+body header nav .phone a {
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 15px;
+  background: #2c2e83;
+  border-radius: 25px;
+}
+
+body .portada {
+  background: #EC6608;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+body .portada .image_portada {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .portada .image_portada img {
+  width: 40%;
+  height: 40%;
+}
+
+body .portada .title {
+  width: 100%;
+}
+
+body .portada .title h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 3em;
+}
+
+body .portada .botton_contact {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .portada .botton_contact a {
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 15px;
+  background: #2c2e83;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 2em;
+}
+
+body .servicios {
+  width: 100%;
+  padding-bottom: 35px;
+}
+
+body .servicios h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #EC6608;
+}
+
+body .servicios .container_servicios {
+  width: 100%;
+}
+
+body .servicios .container_servicios .lubricacion {
+  width: 100%;
+}
+
+body .servicios .container_servicios .lubricacion h3 {
+  text-align: center;
+  font-size: 1.9em;
+  color: #2c2e83;
+}
+
+body .servicios .container_servicios .lubricacion .container_lubricacion {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .servicios .container_servicios .lubricacion .container_lubricacion ol li {
+  margin-bottom: 10px;
+}
+
+body .servicios .container_servicios .lubricacion .container_lubricacion ol li::marker {
+  color: #2c2e83;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+body .servicios .container_servicios .lubricacion .container_lubricacion img {
+  width: 400px;
+  height: 400px;
+}
+
+body .servicios .container_servicios .mecanica {
+  width: 100%;
+}
+
+body .servicios .container_servicios .mecanica h3 {
+  text-align: center;
+  font-size: 1.9em;
+  color: #2c2e83;
+}
+
+body .servicios .container_servicios .mecanica .container_mecanica {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .servicios .container_servicios .mecanica .container_mecanica img {
+  width: 350px;
+  height: 350px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body .servicios .container_servicios .mecanica .container_mecanica ul li {
+  margin-bottom: 10px;
+}
+
+body .servicios .container_servicios .mecanica .container_mecanica ul li::marker {
+  color: #2c2e83;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+body .servicios .container_servicios .pintura {
+  width: 100%;
+}
+
+body .servicios .container_servicios .pintura h3 {
+  text-align: center;
+  font-size: 1.9em;
+  color: #2c2e83;
+}
+
+body .servicios .container_servicios .pintura .container_pintura {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .servicios .container_servicios .pintura .container_pintura img {
+  width: 350px;
+  height: 350px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body .servicios .container_servicios .pintura .container_pintura ul li {
+  margin-bottom: 10px;
+}
+
+body .servicios .container_servicios .pintura .container_pintura ul li::marker {
+  color: #2c2e83;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+body .servicios .container_servicios .venta {
+  width: 100%;
+}
+
+body .servicios .container_servicios .venta h3 {
+  text-align: center;
+  font-size: 1.9em;
+  color: #2c2e83;
+}
+
+body .servicios .container_servicios .venta .container_venta {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .servicios .container_servicios .venta .container_venta img {
+  width: 500px;
+  height: 175px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body .servicios .container_servicios .venta .container_venta ul li {
+  margin-bottom: 10px;
+}
+
+body .servicios .container_servicios .venta .container_venta ul li::marker {
+  color: #2c2e83;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+body .trabajos {
+  width: 100%;
+  padding-bottom: 35px;
+  background-color: #002863;
+  padding-top: 5px;
+}
+
+body .trabajos h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #fff;
+}
+
+body .trabajos .container_trabajos {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .trabajos .container_trabajos video {
+  width: 500px;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+body .galeria {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .galeria img {
+  width: 33.3%;
+  height: auto;
+}
+
+body .contacto {
+  padding-top: 20px;
+  width: 100%;
+  background: #002863;
+  padding-bottom: 30px;
+}
+
+body .contacto h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+body .contacto .container_contacto {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .contacto .container_contacto img {
+  width: 45%;
+}
+
+body .contacto .container_contacto .contacto_info {
+  width: 45%;
+  margin-top: 50px;
+}
+
+body .contacto .container_contacto .contacto_info .horarios {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+body .contacto .container_contacto .contacto_info .horarios p {
+  margin: 0px;
+  margin-top: 10px;
+}
+
+body .contacto .container_contacto .contacto_info .contacto_div {
+  margin-bottom: 60px;
+}
+
+body .contacto .container_contacto .contacto_info .contacto_div .container_contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  margin-top: 10px;
+}
+
+body .contacto .container_contacto .contacto_info .contacto_div .container_contacto p {
+  margin: 0px;
+  margin-left: 10px;
+}
+
+body .contacto .container_contacto .contacto_info .redes a {
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+body .contacto .container_contacto .contacto_info .redes a .container_redes {
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .contacto .container_contacto .contacto_info .redes a .container_redes i {
+  color: #fff;
+  padding-right: 20px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body .contacto .container_contacto .contacto_info .redes a .container_redes p {
+  color: #fff;
+  margin: 0px;
+}
+
+body .cita {
+  background: #EC6608;
+  padding-bottom: 30px;
+}
+
+body .cita h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #fff;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 0px;
+}
+
+body .cita form {
+  width: 500px;
+  margin: auto;
+  padding-bottom: 50px;
+  border: 1px solid #2c2e83;
+  background: #2c2e83;
+  padding: 30px 35px;
+  border-radius: 30px;
+}
+
+body .cita form .container_formulario .datos .datos_b {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 20px;
+}
+
+body .cita form .container_formulario .datos .datos_b label {
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+body .cita form .container_formulario .datos .datos_b input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #EC6608;
+  padding: 10px 0px;
+  color: #fff;
+}
+
+body .cita form .container_formulario .fecha .calendario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 20px;
+}
+
+body .cita form .container_formulario .fecha .calendario label {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+body .cita form .container_formulario .fecha .calendario input {
+  padding: 10px 0px;
+  border-radius: 20px;
+  border: none;
+}
+
+body .cita form .container_formulario .fecha .servicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 20px;
+}
+
+body .cita form .container_formulario .fecha .servicio label {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+body .cita form .container_formulario .fecha .servicio select {
+  padding: 10px 0px;
+  border-radius: 20px;
+  border: none;
+}
+
+body .cita form .container_button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0px;
+}
+
+body .cita form .container_button .btn_formulario {
+  text-align: center;
+  background-color: #EC6608;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 100px;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+}
+
+body footer {
+  width: 100%;
+  background: #000;
+}
+
+body footer p {
+  color: #fff;
+  text-align: center;
+  margin: 0px;
+}
+
+body footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 1193px) {
+  body header nav {
+    width: 100%;
+  }
+  body header nav .logo {
+    display: none;
+  }
+  body header nav .company_name {
+    width: 50%;
+  }
+  body header nav .phone {
+    width: 260px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body .servicios .container_servicios .lubricacion .container_lubricacion {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body .servicios .container_servicios .lubricacion .container_lubricacion ol {
+    margin: auto;
+  }
+  body .servicios .container_servicios .lubricacion .container_lubricacion img {
+    margin: auto;
+  }
+  body .servicios .container_servicios .venta .container_venta {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body .servicios .container_servicios .venta .container_venta ul {
+    margin: auto;
+  }
+  body .servicios .container_servicios .venta .container_venta img {
+    margin: auto;
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 854px) {
+  body .contacto .container_contacto {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body .contacto .container_contacto img {
+    width: 400px;
+    margin: auto;
+  }
+  body .contacto .container_contacto .contacto_info {
+    width: 383px;
+    margin: auto;
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 832px) {
+  body .servicios .container_servicios .mecanica .container_mecanica {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+  body .servicios .container_servicios .mecanica .container_mecanica ul {
+    width: 400px;
+    margin: auto;
+  }
+  body .servicios .container_servicios .mecanica .container_mecanica img {
+    width: 400px;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 746px) {
+  body header nav .company_name {
+    width: 400px;
+  }
+  body header nav .phone {
+    margin-right: 10px;
+  }
+  body .portada .image_portada img {
+    width: 60%;
+    height: 60%;
+  }
+  body .servicios .container_servicios .pintura .container_pintura {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body .servicios .container_servicios .pintura .container_pintura img {
+    margin: auto;
+  }
+  body .servicios .container_servicios .pintura .container_pintura ul {
+    margin: auto;
+    padding: 15px 0px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body .cita form {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  body header nav .company_name .container_car img {
+    display: none;
+  }
+  body header nav .phone {
+    width: 390px;
+  }
+}
+
+@media screen and (max-width: 503px) {
+  body header nav .company_name {
+    width: 254px;
+  }
+  body .servicios .container_servicios .mecanica .container_mecanica img {
+    width: 300px;
+    height: 300px;
+  }
+  body .servicios .container_servicios .venta .container_venta img {
+    width: 350px;
+    height: 175px;
+  }
+  body .cita form {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  body header nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  body header nav .company_name {
+    height: 50px;
+  }
+  body header nav .phone {
+    text-align: left;
+    width: 250px;
+    margin-left: auto;
+  }
+  body .portada .image_portada img {
+    width: 70%;
+    height: 70%;
+  }
+  body .servicios .container_servicios .lubricacion .container_lubricacion img {
+    width: 300px;
+    height: 300px;
+  }
+  body .servicios .container_servicios .venta .container_venta img {
+    width: 325px;
+    height: 150px;
+  }
+  body .contacto .container_contacto img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  body .servicios .container_servicios .venta .container_venta img {
+    width: 260px;
+    height: 100px;
+  }
+  body .cita form {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  body .servicios .container_servicios .pintura .container_pintura img {
+    width: 250px;
+    height: 250px;
+  }
+  body .servicios .container_servicios .pintura .container_pintura ul {
+    padding: 0px 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
