@@ -657,6 +657,17 @@ body footer a {
   }
 }
 
+@media screen and (max-width: 1112px) {
+  body .trabajos .container_trabajos {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .trabajos .container_trabajos video {
+    width: 501px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   body .servicios .container_servicios .lubricacion .container_lubricacion {
     -ms-flex-wrap: wrap;
@@ -713,6 +724,42 @@ body footer a {
   }
 }
 
+@media screen and (max-width: 796px) {
+  body .galeria img {
+    width: 50%;
+  }
+  body .galeria .number_1 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  body .galeria .number_2 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  body .galeria .number_3 {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  body .galeria .number_4 {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  body .galeria .number_5 {
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+  }
+  body .galeria .number_6 {
+    -webkit-box-ordinal-group: 7;
+        -ms-flex-order: 6;
+            order: 6;
+  }
+}
+
 @media screen and (max-width: 746px) {
   body header nav .company_name {
     width: 400px;
@@ -752,6 +799,12 @@ body footer a {
   }
 }
 
+@media screen and (max-width: 576px) {
+  body .trabajos .container_trabajos video {
+    width: 400px;
+  }
+}
+
 @media screen and (max-width: 503px) {
   body header nav .company_name {
     width: 254px;
@@ -766,6 +819,12 @@ body footer a {
   }
   body .cita form {
     width: 300px;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  body .trabajos .container_trabajos video {
+    width: 350px;
   }
 }
 
@@ -810,6 +869,12 @@ body footer a {
   }
   body .cita form {
     width: 250px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  body .trabajos .container_trabajos video {
+    width: 300px;
   }
 }
 
